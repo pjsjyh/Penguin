@@ -1,0 +1,19 @@
+# Ignore everything in the project
+PenguinAdventure/*
+
+# But do not ignore the Assets folder and its Scripts inside PenguinAdventure
+!PenguinAdventure/Assets/
+!PenguinAdventure/Assets/Scripts/
+!PenguinAdventure/Assets/Scripts/**/*.cs
+
+# Ignore meta files except in the Scripts folder
+PenguinAdventure/Assets/**/*.meta
+!PenguinAdventure/Assets/Scripts/**/*.meta
+
+# Ignore generated project files and other build artifacts
+PenguinAdventure/Library/
+PenguinAdventure/Temp/
+PenguinAdventure/Obj/
+PenguinAdventure/Build/
+PenguinAdventure/Builds/
+PenguinAdventure/Logs/
